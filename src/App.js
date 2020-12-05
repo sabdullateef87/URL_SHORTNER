@@ -15,12 +15,12 @@ function App() {
       </div>
 
       <div className="parent col-sm-12 col-md-12 col-xs-12">
-        <h1>PASTE YOUR URL</h1>
+        <h3>Paste Long URL</h3>
         <Input parentCallBack={callBackFunc} />
       </div>
 
       <div className="parent col-sm-12 col-md-12 col-xs-12">
-        <h3>Short Link : </h3>
+        <h3>Short Link </h3>
         <p>{returnLink}</p>
       </div>
     </div>
