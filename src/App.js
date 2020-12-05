@@ -14,12 +14,12 @@ function App() {
         <h1>URL SHORTNER</h1>
       </div>
 
-      <div className="parent">
+      <div className="parent col-sm-12 col-md-12 col-xs-12">
         <h1>PASTE YOUR URL</h1>
         <Input parentCallBack={callBackFunc} />
       </div>
 
-      <div className="parent">
+      <div className="parent col-sm-12 col-md-12 col-xs-12">
         <h3>Short Link : </h3>
         <p>{returnLink}</p>
       </div>
