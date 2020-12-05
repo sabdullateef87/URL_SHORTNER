@@ -1,0 +1,39 @@
+.app {
+  background-color: #344152;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.app .app-header {
+  color: #f2f2fc;
+  text-align: center;
+  padding: 10px 0;
+}
+.parent {
+  width: 40%;
+  margin: 10px auto;
+  background-color: #a2b5cd;
+  height: 250px;
+  color: #003f87;
+  border-radius: 20px;
+  padding: 40px;
+}
+.parent h1 {
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+.parent h3 {
+  color: #003f87;
+  display: inline-block;
+}
+.parent p {
+  font-size: 20px;
+  color: #000000;
+  
+}
+.btn {
+  background-color: #003f87;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+}
