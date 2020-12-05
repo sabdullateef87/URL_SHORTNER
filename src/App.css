@@ -1,7 +1,7 @@
 .app {
   background-color: #344152;
   min-height: 100vh;
-  padding: 40px 0;
+  padding: 40px;
 }
 
 .app .app-header {
@@ -10,7 +10,7 @@
   padding: 10px 0;
 }
 .parent {
-  width: 40%;
+  /* width: 40%; */
   margin: 10px auto;
   background-color: #a2b5cd;
   min-height: 250px;
@@ -25,11 +25,19 @@
 .parent h3 {
   color: #003f87;
   display: inline-block;
+  margin-bottom: 10px;
 }
 .parent p {
   font-size: 20px;
   color: #000000;
   word-break: break-all;
+}
+.parent .returnLinkCont {
+  width: 100%;
+  min-height: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 .btn {
   background-color: #003f87;

@@ -22,9 +22,7 @@ function Input({ parentCallBack }) {
     setcopiedUrl(e.target.value);
   };
 
-  const copyToClipboard = () => {
-    navigator.clipboard.writeText();
-  };
+ 
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit} className="forms">
